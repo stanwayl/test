@@ -10,10 +10,10 @@ The goal was to maintain 100% accuracy but not necessarily 100% parallelization.
 
 ###Features
 - 1A) Shell script parser
-..- Detects invalid grammar
-..- Ignores comments
-..- Supports detection for subshells
-..- Print out a diagnostic with the '-p'flag
+..* Detects invalid grammar
+..* Ignores comments
+..* Supports detection for subshells
+..* Print out a diagnostic with the '-p'flag
 
 - 1B) Execution model
 ..- I/O redirections handled (within the specification)
