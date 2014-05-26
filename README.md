@@ -1,5 +1,5 @@
 #Markdown Test
-######Contributors
+######Contributors: Stanway Liau
 Stanway Liau
 ###Features
 - a
