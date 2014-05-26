@@ -10,34 +10,34 @@ The goal was to maintain 100% accuracy but not necessarily 100% parallelization.
 
 ###Features
 - 1A) Shell script parser
-..* Detects invalid grammar
-..* Ignores comments
-..* Supports detection for subshells
-..* Print out a diagnostic with the '-p'flag
+  - Detects invalid grammar
+  - Ignores comments
+  - Supports detection for subshells
+  - Print out a diagnostic with the '-p'flag
 
 - 1B) Execution model
-..- I/O redirections handled (within the specification)
-..- Subshells executed appropriately
+  - I/O redirections handled (within the specification)
+  - Subshells executed appropriately
 
 - 1C) Parallelization model
-..- Turn on parallelization with the '-t' flag
+  - Turn on parallelization with the '-t' flag
 
 ###Limitations
 - 1A) Shell script parser
-..- Cannot handle append operator '>>'
-..- Doesn't support the tokens '((' or '))'
-..- Memory leaks galore
+  - Cannot handle append operator '>>'
+  - Doesn't support the tokens '((' or '))'
+  - Memory leaks galore
 
 - 1B) Execution model
-..- Doesn't support control flow statements such as 'if', 'while', etc.
-..- Possibly not closing all opened file descriptors
-..- Doesn't support the shell directive 'exec' properly
-..- Will not properly handle commands like 'cd' or 'rm'
+  - Doesn't support control flow statements such as 'if', 'while', etc.
+  - Possibly not closing all opened file descriptors
+  - Doesn't support the shell directive 'exec' properly
+  - Will not properly handle commands like 'cd' or 'rm'
 
 - 1C) Parallelization model
-..- Doesn't parallelize within each command tree, only amongst command trees
-..- Shell prompt may return before all shell commands print out their results
-..- More memory leaks introduced
+  - Doesn't parallelize within each command tree, only amongst command trees
+  - Shell prompt may return before all shell commands print out their results
+  - More memory leaks introduced
 
 ###Installation
 1. Clone this repository using 'git clone https://github.com/stanwayl/time-travel-shell'
