@@ -13,13 +13,10 @@ Class notes, PowerPoint slides, labs, and homeworks for each week.
 Week | Topic | Comments | Score
 --- | --- | --- | ---:
 1 | Getting to know your system | | 100
-2 | Shell scripting | For me: 30:HWORDS dictionary points 0:
-        sameln-Failed test 1  (Basic) 0:Not ignoring
-        slinks | 90
+2 | Shell scripting | For me: 30:HWORDS dictionary points 0:sameln-Failed test 1  (Basic) 0:Not ignoring slinks | 90
 3 | Modifying programs | | 100
 4 | Change management | For me: -1: 1d late | 99
-5 | C programming and debugging | For me: insufficient log file, wrong output
-        for large file, late penalty: -4 | 81
+5 | C programming and debugging | For me: insufficient log file, wrong output for large file, late penalty: -4 | 81
 6 | SSH setup and use in applications | | 98
 7 | System call programming and debugging | | 92
 8 | Buffer overruns | | 100
