@@ -11,7 +11,7 @@ Class notes, PowerPoint slides, labs, and homeworks for each week.
 
 ###Scores
 Week | Topic | Comments | Score
---- | --- | ---:
+--- | --- | --- | ---:
 1 | Getting to know your system | | 100
 2 | Shell scripting | For me: 30:HWORDS dictionary points 0:
         sameln-Failed test 1  (Basic) 0:Not ignoring
