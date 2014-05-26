@@ -1,7 +1,12 @@
-#Test1
-##Test2
-###Test3
-Contributors: Stanway Liau
-
+#Markdown Test
 ######Contributors
 Stanway Liau
+###Features
+- a
+- b
+- v
+
+###Goodbye
+1. 1
+2. 2
+3. 3
