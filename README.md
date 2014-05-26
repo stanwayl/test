@@ -1,5 +1,5 @@
 #cs35L
-####Various labs, homeworks, and notes
+####UCLA CS35L Winter 14
 ######Contributors: Stanway Liau
 
 ###Scores
@@ -16,5 +16,5 @@ Week | Topic | Score
 9 | Multithreaded performance | 100
 10 | Research and development in computing | 100
 
-######Course webpage
+###Course webpage
 http://www.cs.ucla.edu/classes/winter14/cs35L/
